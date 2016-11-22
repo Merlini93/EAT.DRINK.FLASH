@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11c4adaa-7e77-4ca1-b0fe-010d4dcda8df",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "11c4adaa-7e77-4ca1-b0fe-010d4dcda8df" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11c4adaa-7e77-4ca1-b0fe-010d4dcda8df" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B962E9B3-D07D-47C3-8BB4-1B98C53B0F5A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11c4adaa-7e77-4ca1-b0fe-010d4dcda8df" : "eat_drink_flash\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EAT.DRINK.FLASH",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EAT.DRINK.FLASH\/EAT.DRINK.FLASH.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/eat_drink_flash",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11c4adaa-7e77-4ca1-b0fe-010d4dcda8df"
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818D94D3BDFE56A04C68509A /* libPods-EAT.DRINK.FLASH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E0D8F8B228C77E54220784 /* libPods-EAT.DRINK.FLASH.a */; };
+		D50A076B1C9A3EDC002A0AE7 /* LADDeatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A076A1C9A3EDC002A0AE7 /* LADDeatailViewController.m */; };
+		D50D7CC31C97E96000ED447B /* LADTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D7CC21C97E96000ED447B /* LADTableViewCell.m */; };
+		D50D7CC61C99514700ED447B /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D7CC51C99514700ED447B /* CommonHelper.m */; };
+		D50D7CCC1C995A2600ED447B /* 2016-03-16 17.08.09.png in Resources */ = {isa = PBXBuildFile; fileRef = D50D7CCB1C995A2600ED447B /* 2016-03-16 17.08.09.png */; };
+		D50D7CCF1C9975AA00ED447B /* LADCustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D7CCE1C9975AA00ED447B /* LADCustomHeaderView.m */; };
+		D52F32571C9AD3CB00A59558 /* LADDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D52F32561C9AD3CB00A59558 /* LADDataBase.m */; };
+		D52F325A1C9ADC8100A59558 /* LADFavoriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52F32591C9ADC8100A59558 /* LADFavoriteTableViewController.m */; };
+		D52F325C1C9BA66F00A59558 /* 888.png in Resources */ = {isa = PBXBuildFile; fileRef = D52F325B1C9BA66F00A59558 /* 888.png */; };
+		D52F32611C9C1C1C00A59558 /* LADSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52F32601C9C1C1C00A59558 /* LADSearchTableViewController.m */; };
+		D597E8EE1C9145ED00BC73F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D597E8ED1C9145ED00BC73F9 /* main.m */; };
+		D597E8F11C9145ED00BC73F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D597E8F01C9145ED00BC73F9 /* AppDelegate.m */; };
+		D597E8F71C9145ED00BC73F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D597E8F51C9145ED00BC73F9 /* Main.storyboard */; };
+		D597E8F91C9145ED00BC73F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D597E8F81C9145ED00BC73F9 /* Assets.xcassets */; };
+		D597E90C1C91573F00BC73F9 /* LADHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D597E90B1C91573F00BC73F9 /* LADHomeViewController.m */; };
+		D5AE3A561C91647900A3A1DB /* LADEatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A551C91647900A3A1DB /* LADEatViewController.m */; };
+		D5AE3A591C91648400A3A1DB /* LADDrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A581C91648400A3A1DB /* LADDrinkViewController.m */; };
+		D5AE3A5C1C91648D00A3A1DB /* LADFlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A5B1C91648D00A3A1DB /* LADFlashViewController.m */; };
+		D5AE3A5F1C9164A600A3A1DB /* LADMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A5E1C9164A600A3A1DB /* LADMineViewController.m */; };
+		D5AE3A6C1C919F2200A3A1DB /* LADResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A6B1C919F2200A3A1DB /* LADResponseModel.m */; };
+		D5AE3A6F1C919F3200A3A1DB /* LADDealsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A6E1C919F3200A3A1DB /* LADDealsModel.m */; };
+		D5AE3A721C919F5600A3A1DB /* LADDealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A711C919F5600A3A1DB /* LADDealModel.m */; };
+		D5AE3A751C91A1C500A3A1DB /* LADAppService.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A741C91A1C500A3A1DB /* LADAppService.m */; };
+		D5AE3A791C964DB000A3A1DB /* LADXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A781C964DB000A3A1DB /* LADXMLParser.m */; };
+		D5AE3A7C1C96805100A3A1DB /* LADLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A7B1C96805100A3A1DB /* LADLocation.m */; };
+		D5AE3A7F1C96CC7300A3A1DB /* LADCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE3A7E1C96CC7300A3A1DB /* LADCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280E3EA562362F8651432EE4 /* Pods-EAT.DRINK.FLASH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT.DRINK.FLASH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EAT.DRINK.FLASH/Pods-EAT.DRINK.FLASH.debug.xcconfig"; sourceTree = "<group>"; };
+		38E0D8F8B228C77E54220784 /* libPods-EAT.DRINK.FLASH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EAT.DRINK.FLASH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E5E3FC8ECF43106107D4F0 /* Pods-EAT.DRINK.FLASH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAT.DRINK.FLASH.release.xcconfig"; path = "Pods/Target Support Files/Pods-EAT.DRINK.FLASH/Pods-EAT.DRINK.FLASH.release.xcconfig"; sourceTree = "<group>"; };
+		D50A07691C9A3EDC002A0AE7 /* LADDeatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADDeatailViewController.h; sourceTree = "<group>"; };
+		D50A076A1C9A3EDC002A0AE7 /* LADDeatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADDeatailViewController.m; sourceTree = "<group>"; };
+		D50D7CC11C97E96000ED447B /* LADTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADTableViewCell.h; sourceTree = "<group>"; };
+		D50D7CC21C97E96000ED447B /* LADTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADTableViewCell.m; sourceTree = "<group>"; };
+		D50D7CC41C99514700ED447B /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		D50D7CC51C99514700ED447B /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
+		D50D7CCB1C995A2600ED447B /* 2016-03-16 17.08.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2016-03-16 17.08.09.png"; sourceTree = "<group>"; };
+		D50D7CCD1C9975AA00ED447B /* LADCustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADCustomHeaderView.h; sourceTree = "<group>"; };
+		D50D7CCE1C9975AA00ED447B /* LADCustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADCustomHeaderView.m; sourceTree = "<group>"; };
+		D52F32551C9AD3CB00A59558 /* LADDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADDataBase.h; sourceTree = "<group>"; };
+		D52F32561C9AD3CB00A59558 /* LADDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADDataBase.m; sourceTree = "<group>"; };
+		D52F32581C9ADC8100A59558 /* LADFavoriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADFavoriteTableViewController.h; sourceTree = "<group>"; };
+		D52F32591C9ADC8100A59558 /* LADFavoriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADFavoriteTableViewController.m; sourceTree = "<group>"; };
+		D52F325B1C9BA66F00A59558 /* 888.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 888.png; sourceTree = "<group>"; };
+		D52F325F1C9C1C1C00A59558 /* LADSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADSearchTableViewController.h; sourceTree = "<group>"; };
+		D52F32601C9C1C1C00A59558 /* LADSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADSearchTableViewController.m; sourceTree = "<group>"; };
+		D597E8E91C9145ED00BC73F9 /* EAT.DRINK.FLASH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAT.DRINK.FLASH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D597E8ED1C9145ED00BC73F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D597E8EF1C9145ED00BC73F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D597E8F01C9145ED00BC73F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D597E8F61C9145ED00BC73F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D597E8F81C9145ED00BC73F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D597E8FD1C9145ED00BC73F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D597E90A1C91573F00BC73F9 /* LADHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADHomeViewController.h; sourceTree = "<group>"; };
+		D597E90B1C91573F00BC73F9 /* LADHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADHomeViewController.m; sourceTree = "<group>"; };
+		D5AE3A541C91647900A3A1DB /* LADEatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADEatViewController.h; sourceTree = "<group>"; };
+		D5AE3A551C91647900A3A1DB /* LADEatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADEatViewController.m; sourceTree = "<group>"; };
+		D5AE3A571C91648400A3A1DB /* LADDrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADDrinkViewController.h; sourceTree = "<group>"; };
+		D5AE3A581C91648400A3A1DB /* LADDrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADDrinkViewController.m; sourceTree = "<group>"; };
+		D5AE3A5A1C91648D00A3A1DB /* LADFlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADFlashViewController.h; sourceTree = "<group>"; };
+		D5AE3A5B1C91648D00A3A1DB /* LADFlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADFlashViewController.m; sourceTree = "<group>"; };
+		D5AE3A5D1C9164A600A3A1DB /* LADMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADMineViewController.h; sourceTree = "<group>"; };
+		D5AE3A5E1C9164A600A3A1DB /* LADMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADMineViewController.m; sourceTree = "<group>"; };
+		D5AE3A6A1C919F2200A3A1DB /* LADResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADResponseModel.h; sourceTree = "<group>"; };
+		D5AE3A6B1C919F2200A3A1DB /* LADResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADResponseModel.m; sourceTree = "<group>"; };
+		D5AE3A6D1C919F3200A3A1DB /* LADDealsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADDealsModel.h; sourceTree = "<group>"; };
+		D5AE3A6E1C919F3200A3A1DB /* LADDealsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADDealsModel.m; sourceTree = "<group>"; };
+		D5AE3A701C919F5600A3A1DB /* LADDealModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADDealModel.h; sourceTree = "<group>"; };
+		D5AE3A711C919F5600A3A1DB /* LADDealModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADDealModel.m; sourceTree = "<group>"; };
+		D5AE3A731C91A1C500A3A1DB /* LADAppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADAppService.h; sourceTree = "<group>"; };
+		D5AE3A741C91A1C500A3A1DB /* LADAppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADAppService.m; sourceTree = "<group>"; };
+		D5AE3A771C964DB000A3A1DB /* LADXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADXMLParser.h; sourceTree = "<group>"; };
+		D5AE3A781C964DB000A3A1DB /* LADXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADXMLParser.m; sourceTree = "<group>"; };
+		D5AE3A7A1C96805100A3A1DB /* LADLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADLocation.h; sourceTree = "<group>"; };
+		D5AE3A7B1C96805100A3A1DB /* LADLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADLocation.m; sourceTree = "<group>"; };
+		D5AE3A7D1C96CC7300A3A1DB /* LADCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LADCollectionViewCell.h; sourceTree = "<group>"; };
+		D5AE3A7E1C96CC7300A3A1DB /* LADCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LADCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D597E8E61C9145ED00BC73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818D94D3BDFE56A04C68509A /* libPods-EAT.DRINK.FLASH.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5CE6A32C1E391FDBBFCBFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E0D8F8B228C77E54220784 /* libPods-EAT.DRINK.FLASH.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D597E8E01C9145ED00BC73F9 = {
+			isa = PBXGroup;
+			children = (
+				D597E8EB1C9145ED00BC73F9 /* EAT.DRINK.FLASH */,
+				D597E8EA1C9145ED00BC73F9 /* Products */,
+				FD17E112476E868B20211134 /* Pods */,
+				AF5CE6A32C1E391FDBBFCBFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D597E8EA1C9145ED00BC73F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D597E8E91C9145ED00BC73F9 /* EAT.DRINK.FLASH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D597E8EB1C9145ED00BC73F9 /* EAT.DRINK.FLASH */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE3A761C964D8C00A3A1DB /* Common */,
+				D597E9071C9152A200BC73F9 /* Recource */,
+				D597E9051C9152A200BC73F9 /* DAO */,
+				D597E9081C9152A200BC73F9 /* Service */,
+				D597E9061C9152A200BC73F9 /* Model */,
+				D597E9041C9152A200BC73F9 /* Controller */,
+				D597E9091C9152A200BC73F9 /* View */,
+				D597E8EC1C9145ED00BC73F9 /* Supporting Files */,
+			);
+			path = EAT.DRINK.FLASH;
+			sourceTree = "<group>";
+		};
+		D597E8EC1C9145ED00BC73F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D597E8F81C9145ED00BC73F9 /* Assets.xcassets */,
+				D597E8EF1C9145ED00BC73F9 /* AppDelegate.h */,
+				D597E8F01C9145ED00BC73F9 /* AppDelegate.m */,
+				D597E8F51C9145ED00BC73F9 /* Main.storyboard */,
+				D597E8FD1C9145ED00BC73F9 /* Info.plist */,
+				D597E8ED1C9145ED00BC73F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D597E9041C9152A200BC73F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D597E90A1C91573F00BC73F9 /* LADHomeViewController.h */,
+				D597E90B1C91573F00BC73F9 /* LADHomeViewController.m */,
+				D5AE3A541C91647900A3A1DB /* LADEatViewController.h */,
+				D5AE3A551C91647900A3A1DB /* LADEatViewController.m */,
+				D5AE3A571C91648400A3A1DB /* LADDrinkViewController.h */,
+				D5AE3A581C91648400A3A1DB /* LADDrinkViewController.m */,
+				D5AE3A5A1C91648D00A3A1DB /* LADFlashViewController.h */,
+				D5AE3A5B1C91648D00A3A1DB /* LADFlashViewController.m */,
+				D5AE3A5D1C9164A600A3A1DB /* LADMineViewController.h */,
+				D5AE3A5E1C9164A600A3A1DB /* LADMineViewController.m */,
+				D50A07691C9A3EDC002A0AE7 /* LADDeatailViewController.h */,
+				D50A076A1C9A3EDC002A0AE7 /* LADDeatailViewController.m */,
+				D52F32581C9ADC8100A59558 /* LADFavoriteTableViewController.h */,
+				D52F32591C9ADC8100A59558 /* LADFavoriteTableViewController.m */,
+				D52F325F1C9C1C1C00A59558 /* LADSearchTableViewController.h */,
+				D52F32601C9C1C1C00A59558 /* LADSearchTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D597E9051C9152A200BC73F9 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				D52F32551C9AD3CB00A59558 /* LADDataBase.h */,
+				D52F32561C9AD3CB00A59558 /* LADDataBase.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		D597E9061C9152A200BC73F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE3A6A1C919F2200A3A1DB /* LADResponseModel.h */,
+				D5AE3A6B1C919F2200A3A1DB /* LADResponseModel.m */,
+				D5AE3A6D1C919F3200A3A1DB /* LADDealsModel.h */,
+				D5AE3A6E1C919F3200A3A1DB /* LADDealsModel.m */,
+				D5AE3A701C919F5600A3A1DB /* LADDealModel.h */,
+				D5AE3A711C919F5600A3A1DB /* LADDealModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D597E9071C9152A200BC73F9 /* Recource */ = {
+			isa = PBXGroup;
+			children = (
+				D52F325B1C9BA66F00A59558 /* 888.png */,
+				D50D7CCB1C995A2600ED447B /* 2016-03-16 17.08.09.png */,
+			);
+			path = Recource;
+			sourceTree = "<group>";
+		};
+		D597E9081C9152A200BC73F9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE3A731C91A1C500A3A1DB /* LADAppService.h */,
+				D5AE3A741C91A1C500A3A1DB /* LADAppService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D597E9091C9152A200BC73F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE3A7D1C96CC7300A3A1DB /* LADCollectionViewCell.h */,
+				D5AE3A7E1C96CC7300A3A1DB /* LADCollectionViewCell.m */,
+				D50D7CC11C97E96000ED447B /* LADTableViewCell.h */,
+				D50D7CC21C97E96000ED447B /* LADTableViewCell.m */,
+				D50D7CCD1C9975AA00ED447B /* LADCustomHeaderView.h */,
+				D50D7CCE1C9975AA00ED447B /* LADCustomHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5AE3A761C964D8C00A3A1DB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D50D7CC41C99514700ED447B /* CommonHelper.h */,
+				D50D7CC51C99514700ED447B /* CommonHelper.m */,
+				D5AE3A771C964DB000A3A1DB /* LADXMLParser.h */,
+				D5AE3A781C964DB000A3A1DB /* LADXMLParser.m */,
+				D5AE3A7A1C96805100A3A1DB /* LADLocation.h */,
+				D5AE3A7B1C96805100A3A1DB /* LADLocation.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FD17E112476E868B20211134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				280E3EA562362F8651432EE4 /* Pods-EAT.DRINK.FLASH.debug.xcconfig */,
+				87E5E3FC8ECF43106107D4F0 /* Pods-EAT.DRINK.FLASH.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D597E8E81C9145ED00BC73F9 /* EAT.DRINK.FLASH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D597E9001C9145ED00BC73F9 /* Build configuration list for PBXNativeTarget "EAT.DRINK.FLASH" */;
+			buildPhases = (
+				D30EA774D3340AA85C9AD133 /* Check Pods Manifest.lock */,
+				D597E8E51C9145ED00BC73F9 /* Sources */,
+				D597E8E61C9145ED00BC73F9 /* Frameworks */,
+				D597E8E71C9145ED00BC73F9 /* Resources */,
+				90841B3F49A93D6986252A42 /* Embed Pods Frameworks */,
+				6B4ABB602557060CCEA63700 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAT.DRINK.FLASH;
+			productName = EAT.DRINK.FLASH;
+			productReference = D597E8E91C9145ED00BC73F9 /* EAT.DRINK.FLASH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D597E8E11C9145ED00BC73F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LAD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Merlini;
+				TargetAttributes = {
+					D597E8E81C9145ED00BC73F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D597E8E41C9145ED00BC73F9 /* Build configuration list for PBXProject "EAT.DRINK.FLASH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D597E8E01C9145ED00BC73F9;
+			productRefGroup = D597E8EA1C9145ED00BC73F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D597E8E81C9145ED00BC73F9 /* EAT.DRINK.FLASH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D597E8E71C9145ED00BC73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50D7CCC1C995A2600ED447B /* 2016-03-16 17.08.09.png in Resources */,
+				D597E8F91C9145ED00BC73F9 /* Assets.xcassets in Resources */,
+				D597E8F71C9145ED00BC73F9 /* Main.storyboard in Resources */,
+				D52F325C1C9BA66F00A59558 /* 888.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B4ABB602557060CCEA63700 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EAT.DRINK.FLASH/Pods-EAT.DRINK.FLASH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90841B3F49A93D6986252A42 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EAT.DRINK.FLASH/Pods-EAT.DRINK.FLASH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30EA774D3340AA85C9AD133 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D597E8E51C9145ED00BC73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AE3A591C91648400A3A1DB /* LADDrinkViewController.m in Sources */,
+				D50D7CC31C97E96000ED447B /* LADTableViewCell.m in Sources */,
+				D5AE3A5F1C9164A600A3A1DB /* LADMineViewController.m in Sources */,
+				D597E8F11C9145ED00BC73F9 /* AppDelegate.m in Sources */,
+				D50D7CCF1C9975AA00ED447B /* LADCustomHeaderView.m in Sources */,
+				D50A076B1C9A3EDC002A0AE7 /* LADDeatailViewController.m in Sources */,
+				D5AE3A6F1C919F3200A3A1DB /* LADDealsModel.m in Sources */,
+				D5AE3A791C964DB000A3A1DB /* LADXMLParser.m in Sources */,
+				D5AE3A751C91A1C500A3A1DB /* LADAppService.m in Sources */,
+				D5AE3A7C1C96805100A3A1DB /* LADLocation.m in Sources */,
+				D52F325A1C9ADC8100A59558 /* LADFavoriteTableViewController.m in Sources */,
+				D597E8EE1C9145ED00BC73F9 /* main.m in Sources */,
+				D5AE3A7F1C96CC7300A3A1DB /* LADCollectionViewCell.m in Sources */,
+				D5AE3A5C1C91648D00A3A1DB /* LADFlashViewController.m in Sources */,
+				D50D7CC61C99514700ED447B /* CommonHelper.m in Sources */,
+				D597E90C1C91573F00BC73F9 /* LADHomeViewController.m in Sources */,
+				D52F32611C9C1C1C00A59558 /* LADSearchTableViewController.m in Sources */,
+				D5AE3A6C1C919F2200A3A1DB /* LADResponseModel.m in Sources */,
+				D52F32571C9AD3CB00A59558 /* LADDataBase.m in Sources */,
+				D5AE3A561C91647900A3A1DB /* LADEatViewController.m in Sources */,
+				D5AE3A721C919F5600A3A1DB /* LADDealModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D597E8F51C9145ED00BC73F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D597E8F61C9145ED00BC73F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D597E8FE1C9145ED00BC73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Yue (U635654VMR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Yue (U635654VMR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0073da16-efb4-4207-9cb3-4749cef94d18";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D597E8FF1C9145ED00BC73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0073da16-efb4-4207-9cb3-4749cef94d18";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D597E9011C9145ED00BC73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280E3EA562362F8651432EE4 /* Pods-EAT.DRINK.FLASH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Yue (U635654VMR)";
+				INFOPLIST_FILE = EAT.DRINK.FLASH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1511.EATDRINKFLASH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D597E9021C9145ED00BC73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E5E3FC8ECF43106107D4F0 /* Pods-EAT.DRINK.FLASH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Yue (U635654VMR)";
+				INFOPLIST_FILE = EAT.DRINK.FLASH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1511.EATDRINKFLASH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D597E8E41C9145ED00BC73F9 /* Build configuration list for PBXProject "EAT.DRINK.FLASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D597E8FE1C9145ED00BC73F9 /* Debug */,
+				D597E8FF1C9145ED00BC73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D597E9001C9145ED00BC73F9 /* Build configuration list for PBXNativeTarget "EAT.DRINK.FLASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D597E9011C9145ED00BC73F9 /* Debug */,
+				D597E9021C9145ED00BC73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D597E8E11C9145ED00BC73F9 /* Project object */;
+}
