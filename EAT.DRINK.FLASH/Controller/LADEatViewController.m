@@ -92,7 +92,7 @@ static NSString * const reuseidentifier = @"myCollectionViewCell";
     __weak typeof(self) vc = self;
     self.collectionView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
         // 重新定位, 发送请求
-        [[[LADAppService alloc] init]  getXMLFromServiceWithLocation:_location withCategory:@"西餐火锅自助餐烧烤湖北菜川湘菜" withOffset:[NSNumber numberWithInteger:_offset + 20] withCompeletionHandler:^(id data) {
+        [[[LADAppService alloc] init]  getXMLFromServiceWithLocation:_location withCategory:@"美食" withOffset:[NSNumber numberWithInteger:_offset + 20] withCompeletionHandler:^(id data) {
             NSArray *tempArray = [[[LADXMLParser alloc] init] getModelArrayWithXMLData:data];
             if (tempArray) {
                 self.dataArray = [self.dataArray arrayByAddingObjectsFromArray:tempArray];

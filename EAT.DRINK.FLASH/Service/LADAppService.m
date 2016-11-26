@@ -60,7 +60,7 @@
 - (void)getFoodXMLFromServiceWithLocation:(CLLocation *)location withCompeletionHandler:(LADAppServiceBlock)handler
 {
     
-    [self getXMLFromServiceWithLocation:location withRadius:@(10) withOffset:@(0) withLimit:@(20) withCategory:@"西餐火锅自助餐烧烤湖北菜川湘菜" withComepeletionHandler:handler];
+    [self getXMLFromServiceWithLocation:location withRadius:@(10) withOffset:@(0) withLimit:@(20) withCategory:@"美食" withComepeletionHandler:handler];
 }
 
 - (void)getDrinkXMLFromServiceWithLocation:(CLLocation *)location withCompeletionHandler:(LADAppServiceBlock)handler
