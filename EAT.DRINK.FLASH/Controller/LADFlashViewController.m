@@ -82,7 +82,7 @@ static NSString * const reuseidentifier = @"LADTableViewCell";
     [hud hide:YES afterDelay:1];
     [self manager];
     self.tableView.tableHeaderView = [[LADCustomHeaderView alloc] initWithFrame:CGRectMake(0, 0, kSCREENW, 220)];
-    
+    self.definesPresentationContext = YES;
     [self configMJHeader];
     [self configMJFooter];
     [self configNotification];
