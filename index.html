@@ -12,6 +12,8 @@
             justify-content: center;
             align-items: center;
             background-color: white;
+            flex-direction: column;
+            gap: 20px; /* 添加按钮间距 */
         }
 
         .download-btn {
@@ -24,19 +26,26 @@
             font-size: 16px;
             transition: background-color 0.3s;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: none; /* 移除默认边框 */
+            cursor: pointer; /* 统一手型光标 */
         }
 
         .download-btn:hover {
             background-color: #0099CC;
-            cursor: pointer;
             transform: translateY(-2px);
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
+    <!-- 原有下载按钮 -->
     <a href="itms-services://?action=download-manifest&url=https://xzuat.ymtc.com/woa/publish/bin/download?channel%3Dcjcckjyxgsuat%26major_ver%3D5%26minor_ver%3D18%26patch_ver%3D35%26platform%3Dios-plist" class="download-btn">
         点击下载
     </a>
+
+    <!-- 新增通信按钮 -->
+    <button class="download-btn" onclick="window.webkit.messageHandlers.getCJCCUserInfo.postMessage('')">
+        发送消息
+    </button>
 </body>
 </html>
