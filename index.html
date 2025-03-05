@@ -47,6 +47,7 @@
         function sendMessage() {
             if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.getCJCCUserInfo) {
                 window.webkit.messageHandlers.getCJCCUserInfo.postMessage("");
+                window.alert("调用成功！");
             } else {
                 window.alert("window.webkit.messageHandlers.getCJCCUserInfo 未定义");
             }
