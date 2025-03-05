@@ -9,14 +9,14 @@
             margin: 0;
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background-color: white;
-            flex-direction: column;
-            gap: 20px; /* 添加按钮间距 */
+            gap: 20px;
         }
 
-        .download-btn {
+        .button {
             background-color: #00BFFF;
             color: white;
             padding: 15px 30px;
@@ -24,13 +24,13 @@
             text-decoration: none;
             font-family: Arial, sans-serif;
             font-size: 16px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.2s;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border: none; /* 移除默认边框 */
-            cursor: pointer; /* 统一手型光标 */
+            border: none;
+            cursor: pointer;
         }
 
-        .download-btn:hover {
+        .button:hover {
             background-color: #0099CC;
             transform: translateY(-2px);
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
@@ -38,14 +38,19 @@
     </style>
 </head>
 <body>
-    <!-- 原有下载按钮 -->
-    <a href="itms-services://?action=download-manifest&url=https://xzuat.ymtc.com/woa/publish/bin/download?channel%3Dcjcckjyxgsuat%26major_ver%3D5%26minor_ver%3D18%26patch_ver%3D35%26platform%3Dios-plist" class="download-btn">
+    <a href="itms-services://?action=download-manifest&url=https://xzuat.ymtc.com/woa/publish/bin/download?channel%3Dcjcckjyxgsuat%26major_ver%3D5%26minor_ver%3D18%26patch_ver%3D35%26platform%3Dios-plist" class="button">
         点击下载
     </a>
+    <button class="button" onclick="sendMessage()">调用 Native 方法</button>
 
-    <!-- 新增通信按钮 -->
-    <button class="download-btn" onclick="window.webkit.messageHandlers.getCJCCUserInfo.postMessage('')">
-        发送消息
-    </button>
+    <script>
+        function sendMessage() {
+            if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.getCJCCUserInfo) {
+                window.webkit.messageHandlers.getCJCCUserInfo.postMessage("");
+            } else {
+                window.alert("window.webkit.messageHandlers.getCJCCUserInfo 未定义");
+            }
+        }
+    </script>
 </body>
 </html>
