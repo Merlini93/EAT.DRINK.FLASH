@@ -41,13 +41,20 @@
     <a href="itms-services://?action=download-manifest&url=https://xzuat.ymtc.com/woa/publish/bin/download?channel%3Dcjcckjyxgsuat%26major_ver%3D5%26minor_ver%3D18%26patch_ver%3D35%26platform%3Dios-plist" class="button">
         点击下载
     </a>
-    <button class="button" onclick="sendMessage()">调用 Native 方法</button>
+    <button class="button" onclick="sendMessage()">调用 Native 方法2</button>
 
     <script>
         function sendMessage() {
             if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.getCJCCUserInfo) {
-                window.webkit.messageHandlers.getCJCCUserInfo.postMessage("");
-                window.alert("调用成功！");
+                let promise = window.webkit.messageHandlers.getCJCCUserInfo.postMessage(""); 
+                promise.then(
+                    function(result) {
+                        alert('result' + result)
+                    },
+                    function(error) {
+                        alert('error' + error)
+                    }
+                );
             } else {
                 window.alert("window.webkit.messageHandlers.getCJCCUserInfo 未定义");
             }
