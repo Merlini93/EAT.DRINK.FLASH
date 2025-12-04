@@ -13,6 +13,7 @@
 
 - (BOOL)saveModel:(LADDealModel *)model
 {
+    
     return [model saveToDB];
 }
 
